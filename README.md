@@ -1,6 +1,7 @@
 # Ticket-Booking-System
 
 Book My Show - Ticket Booking System
+
 Overview
 The Book My Show system is a command-line ticket booking application designed to provide users with an easy and efficient way to book tickets for current shows. The system includes features for adding, editing, deleting, displaying, and searching for bookings. This application is implemented in Python and uses a MySQL database for data storage.
 
