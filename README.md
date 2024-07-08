@@ -3,10 +3,13 @@
 Book My Show - Ticket Booking System
 
 Overview
+
 The Book My Show system is a command-line ticket booking application designed to provide users with an easy and efficient way to book tickets for current shows. The system includes features for adding, editing, deleting, displaying, and searching for bookings. This application is implemented in Python and uses a MySQL database for data storage.
 
 Features
+
 Main Menu
+
 Make a Booking: Allows users to book tickets by providing their name, email, show name, phone number, credit card number, and password.
 Delete a Booking: Provides options to delete bookings by various criteria such as name, email, show booked, phone number, credit card number, and password.
 Edit Booking: Enables users to update their booking details including name, email, show booked, phone number, credit card number, and password.
@@ -15,6 +18,7 @@ Search Record: Allows users to search for specific records in the database by na
 Exit: Exits the application.
 
 Current Shows
+
 Mirzapur Season II
 Laxmii
 Aashram II
@@ -25,6 +29,7 @@ Kota Factory
 Scam 1992: The Harshad Mehta Story
 
 Booking Process
+
 The user is prompted to enter their details for booking a show.
 The system verifies the availability of the selected show.
 Upon successful verification, the booking is confirmed and payment is processed.
@@ -39,6 +44,7 @@ The user can display all bookings or filter the display by specific details.
 The search functionality allows the user to find records based on different criteria.
 
 Database Schema
+
 The application uses a MySQL database with a table named BOOKINGS with the following fields:
 Name: User's name
 Email_id: User's email address
@@ -48,6 +54,7 @@ Credit_Card_No: User's credit card number
 Password: User's password
 
 Installation and Setup
+
 Install MySQL: Ensure MySQL is installed and running on your machine.
 Database Setup: Create a database named tick and a table BOOKINGS using the provided schema.
 Python Dependencies: Install the required Python packages using pip install MySQLdb prettytable.
